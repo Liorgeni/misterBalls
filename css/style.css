@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.cell img {
+  width: 25px;
+  height: auto;
+}
+
+.floor {
+  background-color: gray;
+}
+
+.wall {
+  background-color: brown;
+}
+
+.passage {
+  background-color: gray;
+}
+
+.play {
+  display: none;
+  cursor: pointer;
+}
+
+.nearHeadLine {
+  font-size: large;
+}
+
+.near {
+  font-size: large;
+}
